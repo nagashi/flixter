@@ -38,13 +38,15 @@
   margin-bottom: 0;
 }
 
+
+
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 370px;
+  height: 400px;
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
@@ -90,4 +92,3 @@ li a.active {
 li a:hover { 
   background-color: rgb(153, 146, 146);
 }
-
