@@ -88,8 +88,14 @@ li a.active {
   color: white;
 }
 
-
 li a:hover { 
   background-color: rgb(153, 146, 146);
 }
 
+.help-block {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+  margin: 10px;
+}
