@@ -8,9 +8,9 @@
   <br />
   <div class="row">
     <div class="col-sm-4 col-12 text-center">
-      <span class="badge badge-pill badge-default">
+      <h3><span class="badge badge-pill badge-default">
         <%= number_to_currency(@course.cost, :unit => "$") %>
-      </span>
+      </span></h3>
 
       <% if current_user && current_user == @course.user %>
         <br />
@@ -23,7 +23,7 @@
 
       <% if current_user %>
         <% if current_user.enrolled_in?(@course) %>
-          <h3 class="badge badge-pill badge-info">You Are Enrolled!</h3>
+          <h2 class="badge badge-pill badge-info">You Are Enrolled!</h2>
       <% else %>
         <% if @course.free? %>
           <%= link_to 'Enroll', course_enrollments_path(@course), class: 'btn btn-primary btn-md', method: :post %>
