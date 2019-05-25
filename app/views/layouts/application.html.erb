@@ -58,13 +58,49 @@
 		
 		<div id="footer">
 			<div class="container">
-				<b>Teachers</b>
+			<div class="row">
+			  <div class="col-12 col-sm-3">
+				<u><b>Teachers</b></u>
 				<br />
 				<%= link_to 'Teach a Course', new_instructor_course_path %>
+				<br />
+				<%= link_to 'My Dashboard', dashboard_path %>
+			  </div>
+			  <div class="col-12 col-sm-3">
+				<u><b>About</b></u>
+				<br />
+				<%= link_to 'Team', '#' %>
+				<br />
+				<%= link_to 'Careers', '#' %>
+				<br />
+				<%= link_to 'Privacy Policy', '#' %>
+			  </div>
+			  <div class="col-12 col-sm-3">
+				<u><b>Contact</b></u>
+				<br />
+				<a href="mailto:ceoriley@gmail.com">ceoriley@gmail.com</a>
+				<br />
+				Nashville, TN 37067
+			  </div>
+			  <div class="col-12 col-sm-3 professional">
+				<b><u>Professional</u></b>
+				<br />
+				<%= link_to 'https://github.com/nagashi' do %>
+					<span class="fa fa-github-square fa-2x"></span>
+
+				<%= link_to 'https://www.linkedin.com/in/ceoriley/' do %>
+					<span class="fa fa-linkedin-square fa-2x"></span>
+				<% end %>
+				<% end %>
+				<br />
+							
+			  </div>
 			</div>
+		  </div>
 		</div>
 
     <script src="http://vjs.zencdn.net/5.12.6/video.js"></script>
     <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
   </body>
 </html>
+
