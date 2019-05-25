@@ -173,19 +173,19 @@ ul .header .fa {
   font-family: Raleway-SemiBold;
   font-size: 13px;
   font-weight: bolder;
-  color: rgba(240, 173, 78, 0.75);
+  color: white;
   letter-spacing: 1px;
   line-height: 15px;
   border: 2px solid rgba(240, 173, 78, 0.75);
   border-radius: 40px;
-  background: transparent;
+  background: #ff9933;
   transition: all 0.3s ease 0s;
 }
 
 .btn-warning:hover {
-  color: #FFF;
+  color: white;
   font-weight: bolder;
-  background: rgb(240, 173, 78);
+  background: rgb(160, 151, 140);
   border: 2px solid rgba(240, 173, 78, 0.75);
 }
 
