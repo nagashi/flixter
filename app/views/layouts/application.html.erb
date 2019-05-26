@@ -60,20 +60,20 @@
 			<div class="container">
 			<div class="row">
 			  <div class="col-12 col-sm-3">
-				<u><b>Teachers</b></u>
+				<b><u>Teachers</u></b>
 				<br />
 				<%= link_to 'Teach a Course', new_instructor_course_path %>
 				<br />
 				<%= link_to 'My Dashboard', dashboard_path %>
 			  </div>
 			  <div class="col-12 col-sm-3">
-				<u><b>About</b></u>
+				<b><u>About</u></b>
 				<br />
-				<%= link_to 'Team', '#' %>
+				<%= link_to 'Team', team_path %>
 				<br />
-				<%= link_to 'Careers', '#' %>
+				<a href=https://career.bootcampspot.com/>Careers </a>
 				<br />
-				<%= link_to 'Privacy Policy', '#' %>
+				<%= link_to 'Privacy Policy', privacy_path %>
 			  </div>
 			  <div class="col-12 col-sm-3">
 				<u><b>Contact</b></u>
@@ -85,13 +85,16 @@
 			  <div class="col-12 col-sm-3 professional">
 				<b><u>Professional</u></b>
 				<br />
-				<%= link_to 'https://github.com/nagashi' do %>
-					<span class="fa fa-github-square fa-2x"></span>
 
-				<%= link_to 'https://www.linkedin.com/in/ceoriley/' do %>
-					<span class="fa fa-linkedin-square fa-2x"></span>
-				<% end %>
-				<% end %>
+					<%= link_to 'https://github.com/nagashi' do %>
+								<span class="fa fa-github-square fa-2x"></span>
+
+								<%= link_to 'https://www.linkedin.com/in/ceoriley/' do %>
+									<span class="fa fa-linkedin-square fa-2x"></span>
+								<% end %>
+
+					<% end %>
+
 				<br />
 							
 			  </div>
